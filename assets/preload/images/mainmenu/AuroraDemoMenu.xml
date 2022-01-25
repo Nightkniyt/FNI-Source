@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AuroraDemoMenu.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="why he standin like that0001" x="0" y="0" width="1280" height="720" pivotX="640" pivotY="360"/>
+	<SubTexture name="why he standin like that0002" x="0" y="0" width="1280" height="720"/>
+	<SubTexture name="why he standin like that0003" x="0" y="0" width="1280" height="720"/>
+	<SubTexture name="why he standin like that0004" x="0" y="720" width="1280" height="720"/>
+	<SubTexture name="why he standin like that0005" x="0" y="720" width="1280" height="720"/>
+	<SubTexture name="why he standin like that0006" x="0" y="720" width="1280" height="720"/>
+</TextureAtlas>

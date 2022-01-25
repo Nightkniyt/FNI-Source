@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_trolled.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="trolled basic0000" x="0" y="0" width="220" height="183" pivotX="-171" pivotY="32"/>
+	<SubTexture name="trolled basic0001" x="0" y="0" width="220" height="183"/>
+	<SubTexture name="trolled basic0002" x="0" y="0" width="220" height="183"/>
+	<SubTexture name="trolled white0000" x="0" y="0" width="220" height="183" pivotX="-171" pivotY="32"/>
+	<SubTexture name="trolled white0001" x="0" y="0" width="220" height="183"/>
+	<SubTexture name="trolled white0002" x="0" y="0" width="220" height="183"/>
+</TextureAtlas>

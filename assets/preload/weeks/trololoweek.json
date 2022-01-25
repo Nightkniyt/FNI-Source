@@ -1,0 +1,48 @@
+{
+	"storyName": "Mr. Trololo",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Glad",
+			"sirtroll",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Prepare",
+			"coughtroll",
+			[
+				235,
+				235,
+				255
+			]
+		],
+		[
+			"Evacuate",
+			"trollge",
+			[
+				60,
+				60,
+				60
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "trololoweek"
+}

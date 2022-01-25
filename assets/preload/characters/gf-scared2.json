@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-320
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "dance"
+		},
+		{
+			"offsets": [
+				0,
+				-320
+			],
+			"indices": [
+				4,
+				5,
+				6,
+				7
+			],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "dance"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/scaredGF2",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

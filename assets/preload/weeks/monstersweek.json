@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"Aurora",
+			"aurora",
+			[
+				175,
+				175,
+				175
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "forest",
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"storyName": "The Monsters",
+	"weekName": "monstersweek",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "trololoweek",
+	"startUnlocked": true
+}

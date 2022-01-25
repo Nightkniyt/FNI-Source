@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				310,
+				80
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DamnDaniel Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				310,
+				80
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "DamnDaniel Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				310,
+				80
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DamnDaniel Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				310,
+				80
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DamnDaniel Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				310,
+				80
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "DamnDaniel Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/ZamnDaniel",
+	"position": [
+		20,
+		30
+	],
+	"healthicon": "DamnDaniel",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-50,
+		380
+	],
+	"sing_duration": 6.1,
+	"scale": 0.3
+}

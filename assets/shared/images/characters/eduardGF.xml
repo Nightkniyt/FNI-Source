@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eduardGF.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bounce down0000" x="260" y="159" width="212" height="185" frameX="-43" frameY="0" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce down0001" x="260" y="159" width="212" height="185" frameX="-43" frameY="0" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce down0002" x="260" y="159" width="212" height="185" frameX="-43" frameY="0" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce down0003" x="0" y="159" width="260" height="164" frameX="-19" frameY="-21" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce down0004" x="0" y="0" width="299" height="159" frameX="0" frameY="-26" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce down0005" x="0" y="0" width="299" height="159" frameX="0" frameY="-26" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce down0006" x="0" y="0" width="299" height="159" frameX="0" frameY="-26" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce down0007" x="0" y="0" width="299" height="159" frameX="0" frameY="-26" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce up0000" x="0" y="0" width="299" height="159" frameX="0" frameY="-26" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce up0001" x="0" y="0" width="299" height="159" frameX="0" frameY="-26" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce up0002" x="0" y="0" width="299" height="159" frameX="0" frameY="-26" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce up0003" x="0" y="159" width="260" height="164" frameX="-19" frameY="-21" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce up0004" x="260" y="159" width="212" height="185" frameX="-43" frameY="0" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce up0005" x="260" y="159" width="212" height="185" frameX="-43" frameY="0" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce up0006" x="260" y="159" width="212" height="185" frameX="-43" frameY="0" frameWidth="299" frameHeight="185"/>
+	<SubTexture name="bounce up0007" x="260" y="159" width="212" height="185" frameX="-43" frameY="0" frameWidth="299" frameHeight="185"/>
+</TextureAtlas>

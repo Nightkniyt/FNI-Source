@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="GF_assets.png">
+<SubTexture name="girlfriend GF Dancing Beat0000" x="0" y="0" width="818" height="507" frameX="0" frameY="0" frameWidth="818" frameHeight="507" />
+<SubTexture name="girlfriend GF Dancing Beat0001" x="818" y="0" width="818" height="507" frameX="0" frameY="0" frameWidth="818" frameHeight="507" />
+<SubTexture name="girlfriend GF Dancing Beat0002" x="1636" y="0" width="818" height="507" frameX="0" frameY="0" frameWidth="818" frameHeight="507" />
+<SubTexture name="girlfriend GF Dancing Beat0003" x="2454" y="0" width="818" height="507" frameX="0" frameY="0" frameWidth="818" frameHeight="507" />
+<SubTexture name="girlfriend GF Dancing Beat0004" x="0" y="507" width="818" height="507" frameX="0" frameY="0" frameWidth="818" frameHeight="507" />
+<SubTexture name="girlfriend GF Dancing Beat0005" x="818" y="507" width="818" height="507" frameX="0" frameY="0" frameWidth="818" frameHeight="507" />
+<SubTexture name="girlfriend GF Dancing Beat0006" x="1636" y="507" width="818" height="507" frameX="0" frameY="0" frameWidth="818" frameHeight="507" />
+<SubTexture name="girlfriend GF Dancing Beat0007" x="2454" y="507" width="818" height="507" frameX="0" frameY="0" frameWidth="818" frameHeight="507" />
+</TextureAtlas>

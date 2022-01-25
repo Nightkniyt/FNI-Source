@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Note Idle"
+		},
+		{
+			"offsets": [
+				81,
+				-59
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Note Down"
+		},
+		{
+			"offsets": [
+				21,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Note Left"
+		},
+		{
+			"offsets": [
+				6,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Note Up"
+		},
+		{
+			"offsets": [
+				-10,
+				-33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Note right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/trollmogus",
+	"position": [
+		140,
+		420
+	],
+	"healthicon": "icon-trollmogus",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		206
+	],
+	"camera_position": [
+		-130,
+		20
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

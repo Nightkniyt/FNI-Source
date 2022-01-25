@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="scaredGF.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="da speakers0000" x="0" y="0" width="1159" height="437" pivotX="0" pivotY="-142" frameX="0" frameY="-2" frameWidth="1160" frameHeight="439"/>
+	<SubTexture name="da speakers0001" x="1159" y="0" width="1151" height="439" frameX="-9" frameY="0" frameWidth="1160" frameHeight="439"/>
+	<SubTexture name="da speakers0002" x="2310" y="0" width="1149" height="439" frameX="-11" frameY="0" frameWidth="1160" frameHeight="439"/>
+	<SubTexture name="da speakers0003" x="0" y="439" width="1149" height="437" frameX="-11" frameY="-2" frameWidth="1160" frameHeight="439"/>
+	<SubTexture name="da speakers0004" x="0" y="0" width="1159" height="437" frameX="0" frameY="-2" frameWidth="1160" frameHeight="439"/>
+	<SubTexture name="da speakers0005" x="1149" y="439" width="1151" height="439" frameX="-9" frameY="0" frameWidth="1160" frameHeight="439"/>
+	<SubTexture name="da speakers0006" x="2300" y="439" width="1149" height="439" frameX="-11" frameY="0" frameWidth="1160" frameHeight="439"/>
+	<SubTexture name="da speakers0007" x="0" y="439" width="1149" height="437" frameX="-11" frameY="-2" frameWidth="1160" frameHeight="439"/>
+</TextureAtlas>

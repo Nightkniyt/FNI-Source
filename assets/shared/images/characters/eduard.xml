@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eduard.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Trol down0000" x="10" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0001" x="10" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0002" x="1021" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0003" x="1021" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0004" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0005" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0006" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0007" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0008" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0009" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0010" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0011" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0012" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol down0013" x="2032" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol idle0000" x="3043" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol left0000" x="10" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol left0001" x="10" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol left0002" x="10" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0003" x="10" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0004" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0005" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0006" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0007" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0008" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0009" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0010" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0011" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0012" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol left0013" x="1021" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0000" x="10" y="10" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0001" x="2032" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0002" x="2032" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0003" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0004" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0005" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0006" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0007" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0008" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0009" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0010" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0011" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0012" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss down0013" x="3043" y="823" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0000" x="10" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0001" x="1021" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0002" x="1021" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0003" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0004" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0005" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0006" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0007" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0008" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0009" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0010" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0011" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0012" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss left0013" x="2032" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0000" x="3043" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0001" x="10" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0002" x="10" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0003" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0004" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0005" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0006" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0007" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0008" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0009" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0010" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0011" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0012" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss right0013" x="1021" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0000" x="2032" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0001" x="2032" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0002" x="2032" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0003" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0004" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0005" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0006" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0007" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0008" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0009" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0010" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0011" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0012" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol miss up0013" x="3043" y="2449" width="1001" height="803"/>
+	<SubTexture name="Trol right0000" x="3043" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol right0001" x="3043" y="1636" width="1001" height="803"/>
+	<SubTexture name="Trol right0002" x="10" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0003" x="10" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0004" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0005" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0006" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0007" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0008" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0009" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0010" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0011" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0012" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol right0013" x="1021" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol up0000" x="2032" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol up0001" x="2032" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol up0002" x="3043" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol up0003" x="3043" y="3262" width="1001" height="803"/>
+	<SubTexture name="Trol up0004" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0005" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0006" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0007" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0008" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0009" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0010" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0011" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0012" x="10" y="4075" width="1001" height="803"/>
+	<SubTexture name="Trol up0013" x="10" y="4075" width="1001" height="803"/>
+</TextureAtlas>

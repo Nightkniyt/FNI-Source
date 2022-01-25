@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sirtroll.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Troll Sing Note RIGHT0000" x="100" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0001" x="100" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0002" x="1091" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0003" x="1091" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0004" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0005" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0006" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0007" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0008" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0009" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0010" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0011" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0012" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0013" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0014" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0015" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0016" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0017" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0018" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0019" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0020" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0021" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0022" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0023" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0024" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0000" x="3073" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0001" x="3073" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0002" x="4065" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0003" x="4065" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0004" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0005" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0006" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0007" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0008" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0009" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0010" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0011" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0012" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0013" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0014" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0015" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0016" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0017" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0018" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0019" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0020" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0021" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0022" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0023" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0024" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note LEFT0000" x="6049" y="100" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0001" x="6049" y="100" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0002" x="7041" y="100" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0003" x="7041" y="100" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0004" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0005" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0006" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0007" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0008" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0009" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0010" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0011" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0012" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0013" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0014" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0015" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0016" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0017" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0018" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0019" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0020" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0021" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0022" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0023" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0024" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0000" x="1092" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0001" x="1092" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0002" x="2083" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0003" x="2083" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0004" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0005" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0006" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0007" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0008" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0009" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0010" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0011" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0012" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0013" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0014" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0015" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0016" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0017" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0018" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0019" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0020" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0021" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0022" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0023" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0024" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0000" x="4065" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0001" x="4065" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0002" x="4065" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0003" x="5056" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0004" x="5056" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0005" x="5056" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0006" x="6047" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0007" x="6047" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0008" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0009" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0010" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0011" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0012" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0013" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0014" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0015" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0016" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0017" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0018" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0019" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0020" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0021" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0022" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0023" x="7038" y="1567" width="891" height="1366"/>
+	</TextureAtlas>

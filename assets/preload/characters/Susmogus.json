@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-12
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Note Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				-59
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Note Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				-8
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Note Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				42
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Note Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-33
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Note right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Susmogus",
+	"position": [
+		140,
+		420
+	],
+	"healthicon": "icon-Susmogus",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		115,
+		186
+	],
+	"camera_position": [
+		-130,
+		20
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

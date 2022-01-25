@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="scaredGF2.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dance0000" x="0" y="0" width="482" height="518"/>
+	<SubTexture name="dance0001" x="0" y="0" width="482" height="518"/>
+	<SubTexture name="dance0002" x="482" y="0" width="482" height="518"/>
+	<SubTexture name="dance0003" x="482" y="0" width="482" height="518"/>
+	<SubTexture name="dance0004" x="964" y="0" width="482" height="518"/>
+	<SubTexture name="dance0005" x="1446" y="0" width="482" height="518"/>
+	<SubTexture name="dance0006" x="0" y="518" width="482" height="518"/>
+	<SubTexture name="dance0007" x="482" y="518" width="482" height="518"/>
+</TextureAtlas>

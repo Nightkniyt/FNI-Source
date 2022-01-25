@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="aurora.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Aurora Down0000" x="0" y="0" width="972" height="1194" pivotX="1" pivotY="1" frameX="0" frameY="-74" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0001" x="0" y="0" width="972" height="1194" frameX="0" frameY="-74" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0002" x="972" y="0" width="965" height="1217" frameX="0" frameY="-51" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0003" x="972" y="0" width="965" height="1217" frameX="0" frameY="-51" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0004" x="972" y="0" width="965" height="1217" frameX="0" frameY="-51" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0005" x="972" y="0" width="965" height="1217" frameX="0" frameY="-51" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0006" x="972" y="0" width="965" height="1217" frameX="0" frameY="-51" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0007" x="972" y="0" width="965" height="1217" frameX="0" frameY="-51" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0008" x="972" y="0" width="965" height="1217" frameX="0" frameY="-51" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0009" x="972" y="0" width="965" height="1217" frameX="0" frameY="-51" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0010" x="1937" y="0" width="969" height="1268" frameX="0" frameY="0" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Down0011" x="1937" y="0" width="969" height="1268" frameX="0" frameY="0" frameWidth="972" frameHeight="1268"/>
+	<SubTexture name="Aurora Idle0000" x="2906" y="0" width="1156" height="1237" pivotX="1" pivotY="0" frameX="-1" frameY="-49" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0001" x="2906" y="0" width="1156" height="1237" frameX="-1" frameY="-49" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0002" x="4062" y="0" width="1127" height="1279" frameX="-1" frameY="-7" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0003" x="4062" y="0" width="1127" height="1279" frameX="-1" frameY="-7" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0004" x="5189" y="0" width="1163" height="1279" frameX="0" frameY="-7" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0005" x="5189" y="0" width="1163" height="1279" frameX="0" frameY="-7" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0006" x="0" y="1279" width="1149" height="1279" frameX="-2" frameY="-7" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0007" x="0" y="1279" width="1149" height="1279" frameX="-2" frameY="-7" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0008" x="1149" y="1279" width="1167" height="1279" frameX="-1" frameY="-7" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0009" x="1149" y="1279" width="1167" height="1279" frameX="-1" frameY="-7" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0010" x="2316" y="1279" width="1228" height="1276" frameX="-1" frameY="-10" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0011" x="2316" y="1279" width="1228" height="1276" frameX="-1" frameY="-10" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0012" x="3544" y="1279" width="1230" height="1286" frameX="-1" frameY="0" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0013" x="3544" y="1279" width="1230" height="1286" frameX="-1" frameY="0" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0014" x="4774" y="1279" width="1194" height="1255" frameX="-1" frameY="-31" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Idle0015" x="4774" y="1279" width="1194" height="1255" frameX="-1" frameY="-31" frameWidth="1231" frameHeight="1286"/>
+	<SubTexture name="Aurora Left0000" x="0" y="2565" width="1242" height="1452" pivotX="26" pivotY="1" frameX="0" frameY="-64" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0001" x="0" y="2565" width="1242" height="1452" frameX="0" frameY="-64" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0002" x="1242" y="2565" width="1239" height="1454" frameX="-3" frameY="-62" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0003" x="1242" y="2565" width="1239" height="1454" frameX="-3" frameY="-62" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0004" x="1242" y="2565" width="1239" height="1454" frameX="-3" frameY="-62" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0005" x="1242" y="2565" width="1239" height="1454" frameX="-3" frameY="-62" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0006" x="1242" y="2565" width="1239" height="1454" frameX="-3" frameY="-62" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0007" x="1242" y="2565" width="1239" height="1454" frameX="-3" frameY="-62" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0008" x="1242" y="2565" width="1239" height="1454" frameX="-3" frameY="-62" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0009" x="1242" y="2565" width="1239" height="1454" frameX="-3" frameY="-62" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0010" x="2481" y="2565" width="1216" height="1517" frameX="-27" frameY="0" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Left0011" x="2481" y="2565" width="1216" height="1517" frameX="-27" frameY="0" frameWidth="1243" frameHeight="1517"/>
+	<SubTexture name="Aurora Right0000" x="3697" y="2565" width="1557" height="1323" pivotX="0" pivotY="0"/>
+	<SubTexture name="Aurora Right0001" x="3697" y="2565" width="1557" height="1323"/>
+	<SubTexture name="Aurora Right0002" x="5254" y="2565" width="1493" height="1323" frameX="0" frameY="0" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0003" x="5254" y="2565" width="1493" height="1323" frameX="0" frameY="0" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0004" x="5254" y="2565" width="1493" height="1323" frameX="0" frameY="0" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0005" x="5254" y="2565" width="1493" height="1323" frameX="0" frameY="0" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0006" x="5254" y="2565" width="1493" height="1323" frameX="0" frameY="0" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0007" x="5254" y="2565" width="1493" height="1323" frameX="0" frameY="0" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0008" x="5254" y="2565" width="1493" height="1323" frameX="0" frameY="0" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0009" x="5254" y="2565" width="1493" height="1323" frameX="0" frameY="0" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0010" x="0" y="4082" width="1499" height="1261" frameX="0" frameY="-62" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Right0011" x="0" y="4082" width="1499" height="1261" frameX="0" frameY="-62" frameWidth="1557" frameHeight="1323"/>
+	<SubTexture name="Aurora Up0000" x="1499" y="4082" width="1436" height="1729" pivotX="0" pivotY="0" frameX="0" frameY="0" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0001" x="1499" y="4082" width="1436" height="1729" frameX="0" frameY="0" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0002" x="2935" y="4082" width="1457" height="1704" frameX="0" frameY="-25" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0003" x="2935" y="4082" width="1457" height="1704" frameX="0" frameY="-25" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0004" x="2935" y="4082" width="1457" height="1704" frameX="0" frameY="-25" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0005" x="2935" y="4082" width="1457" height="1704" frameX="0" frameY="-25" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0006" x="2935" y="4082" width="1457" height="1704" frameX="0" frameY="-25" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0007" x="2935" y="4082" width="1457" height="1704" frameX="0" frameY="-25" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0008" x="2935" y="4082" width="1457" height="1704" frameX="0" frameY="-25" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0009" x="2935" y="4082" width="1457" height="1704" frameX="0" frameY="-25" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0010" x="4392" y="4082" width="1415" height="1726" frameX="0" frameY="-3" frameWidth="1457" frameHeight="1729"/>
+	<SubTexture name="Aurora Up0011" x="4392" y="4082" width="1415" height="1726" frameX="0" frameY="-3" frameWidth="1457" frameHeight="1729"/>
+</TextureAtlas>

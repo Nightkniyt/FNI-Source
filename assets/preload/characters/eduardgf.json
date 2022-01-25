@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-119
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "bounce up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-119
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "bounce down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/eduardGF",
+	"position": [
+		300,
+		70
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		155,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 2.7
+}

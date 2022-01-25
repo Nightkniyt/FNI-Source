@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Troll idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				1
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "Troll Sing Note UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "Troll Sing Note LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "Troll Sing Note RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-2
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "Troll Sing Note DOWN",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/coughtroll",
+	"position": [
+		-50,
+		-575
+	],
+	"healthicon": "coughtroll",
+	"flip_x": false,
+	"healthbar_colors": [
+		215,
+		215,
+		215
+	],
+	"camera_position": [
+		-220,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="DamnDaniel.png"><SubTexture name="DamnDaniel Idle0000" x="0" y="0" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Right0000" x="1163" y="0" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Right0001" x="2326" y="0" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Right0002" x="3489" y="0" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Right0003" x="0" y="1163" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Left0000" x="1163" y="1163" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Left0001" x="2326" y="1163" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Left0002" x="3489" y="1163" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Left0003" x="0" y="2326" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Down0000" x="1163" y="2326" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Down0001" x="2326" y="2326" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Down0002" x="3489" y="2326" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Down0003" x="0" y="3489" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Up0000" x="1163" y="3489" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Up0001" x="2326" y="3489" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Up0002" x="3489" y="3489" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+<SubTexture name="DamnDaniel Up0003" x="0" y="4652" width="1163" height="1163" frameX="0" frameY="0" frameWidth="1163" frameHeight="1163" />
+</TextureAtlas>

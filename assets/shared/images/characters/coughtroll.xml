@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="coughtroll.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Troll Sing Note RIGHT0000" x="100" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0001" x="1091" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note RIGHT0002" x="2082" y="100" width="891" height="1366" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0000" x="3073" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0001" x="4065" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note DOWN0002" x="5057" y="100" width="892" height="1367" frameHeight="-200"/>
+	<SubTexture name="Troll Sing Note LEFT0000" x="6049" y="100" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0001" x="7041" y="100" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note LEFT0002" x="100" y="1567" width="892" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0000" x="1092" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0001" x="2083" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll Sing Note UP0002" x="3074" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0000" x="4065" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0001" x="4065" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0002" x="5056" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0003" x="5056" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0004" x="6047" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0005" x="6047" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0006" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0007" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0008" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0009" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0010" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0011" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0012" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0013" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0014" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0015" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0016" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0017" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0018" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0019" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0020" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0021" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0022" x="7038" y="1567" width="891" height="1366"/>
+	<SubTexture name="Troll idle dance0023" x="7038" y="1567" width="891" height="1366"/>
+</TextureAtlas>

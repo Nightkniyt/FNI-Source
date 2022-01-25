@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pibbyt.png"><SubTexture name="PibbyT Idle0000" x="0" y="0" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0001" x="1104" y="0" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0002" x="2208" y="0" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0003" x="3312" y="0" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0004" x="0" y="1334" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0005" x="1104" y="1334" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0006" x="2208" y="1334" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0007" x="3312" y="1334" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0008" x="0" y="2668" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0009" x="1104" y="2668" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Idle0010" x="2208" y="2668" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Right0000" x="3312" y="2668" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Right0001" x="0" y="4002" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Up0000" x="1104" y="4002" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Up0001" x="2208" y="4002" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Left0000" x="3312" y="4002" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Left0001" x="0" y="5336" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Down0000" x="1104" y="5336" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+<SubTexture name="PibbyT Down0001" x="2208" y="5336" width="1104" height="1334" frameX="0" frameY="0" frameWidth="1104" frameHeight="1334" />
+</TextureAtlas>

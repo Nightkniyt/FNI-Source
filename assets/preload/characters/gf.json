@@ -1,0 +1,57 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-119
+			],
+			"indices": [
+				0,
+				0,
+				1,
+				2,
+				3
+			],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "girlfriend GF Dancing Beat"
+		},
+		{
+			"offsets": [
+				0,
+				-119
+			],
+			"indices": [
+				4,
+				4,
+				5,
+				6,
+				7
+			],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "girlfriend GF Dancing Beat"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GF_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
