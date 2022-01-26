@@ -60,6 +60,8 @@ class OptionsState extends MusicBeatState
 		}
 		changeSelection();
 
+                addVirtualPad(UP_DOWN, A_B);
+
 		super.create();
 	}
 
@@ -85,6 +87,8 @@ class OptionsState extends MusicBeatState
 		}
 
 		if (controls.ACCEPT) {
+                        _virtualpad.alpha = 0;// :)
+
 			for (item in grpOptions.members) {
 				item.alpha = 0;
 			}
@@ -183,6 +187,8 @@ class NotesSubstate extends MusicBeatSubstate
 		hsvText = new Alphabet(0, 0, "Hue    Saturation  Brightness", false, false, 0, 0.65);
 		add(hsvText);
 		changeSelection();
+
+                addVirtualPad(FULL, A_B);
 	}
 
 	var changingNote:Bool = false;
@@ -464,6 +470,8 @@ class ControlsSubstate extends MusicBeatSubstate {
 			}
 		}
 		changeSelection();
+
+                addVirtualPad(FULL, A_B);
 	}
 
 	var leaving:Bool = false;
@@ -818,6 +826,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 		}
 		changeSelection();
 		reloadValues();
+
+                addVirtualPad(FULL, A_B);
 	}
 
 	var nextAccept:Int = 5;
