@@ -414,14 +414,7 @@ class PlayState extends MusicBeatState
 				bgGlitch.visible = false;
 				bgGlitch.antialiasing = false;
 				add(bgGlitch);
-
-			case 'theclam': 
-
-				var bg:BGSprite = new BGSprite('bg/theclam', -550, 45);
-				//bg.setGraphicSize(Std.int(bg.width * 1.31));
-				bg.updateHitbox();
-				add(bg);
-
+				
 			case 'spooky': //lame Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
