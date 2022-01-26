@@ -2,4 +2,3 @@ stage
 evilstage
 aurorawoods
 pibbystage
-theclam
