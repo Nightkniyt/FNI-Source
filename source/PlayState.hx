@@ -55,7 +55,7 @@ import sys.FileSystem;
 #end
 
 #if android
-import ui.AndroidControls;
+import ui.AndroidControls.AndroidControls;
 #end
 
 using StringTools;

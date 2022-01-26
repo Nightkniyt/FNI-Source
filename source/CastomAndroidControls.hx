@@ -149,7 +149,7 @@ class CastomAndroidControls extends MusicBeatState
 		}
 	}
 
-	function changeSelection(change:Int = 0,)
+	function changeSelection(change:Int = 0)
 	{
 			curSelected += change;
 	
