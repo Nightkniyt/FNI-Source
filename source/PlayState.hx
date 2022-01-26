@@ -55,7 +55,7 @@ import sys.FileSystem;
 #end
 
 #if android
-import ui.Mobilecontrols;
+import ui.AndroidControls;
 #end
 
 using StringTools;
@@ -63,7 +63,7 @@ using StringTools;
 class PlayState extends MusicBeatState
 {
 	#if android
-	var androidc:Mobilecontrols;
+	var androidc:AndroidControls;
 	#end
 
 	public static var STRUM_X = 42;
@@ -982,7 +982,7 @@ class PlayState extends MusicBeatState
 		doof.cameras = [camHUD];
 
 		#if android
-			androidc = new Mobilecontrols();
+			androidc = new AndroidControls();
 
 			switch (androidc.mode)
 			{
