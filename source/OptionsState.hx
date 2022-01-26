@@ -30,7 +30,7 @@ using StringTools;
 // TO DO: Redo the menu creation system for not being as dumb
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Notes', 'Controls', 'Preferences'];
+	var options:Array<String> = ['Notes', 'Controls', 'Android Controls', 'Preferences'];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
@@ -95,6 +95,9 @@ class OptionsState extends MusicBeatState
 
 				case 'Controls':
 					openSubState(new ControlsSubstate());
+
+				case 'Android Controls':
+					MusicBeatState.switchState(new CastomAndroidControls());
 
 				case 'Preferences':
 					openSubState(new PreferencesSubstate());
@@ -294,7 +297,7 @@ class NotesSubstate extends MusicBeatSubstate
 				grpNotes.forEachAlive(function(spr:FlxSprite) {
 					spr.alpha = 0;
 				});
-				close();
+				MusicBeatState.resetState();
 			}
 			changingNote = false;
 			FlxG.sound.play(Paths.sound('cancelMenu'));
@@ -483,7 +486,7 @@ class ControlsSubstate extends MusicBeatSubstate {
 				grpOptions.forEachAlive(function(spr:Alphabet) {
 					spr.alpha = 0;
 				});
-				close();
+				MusicBeatState.resetState();
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 			}
 
@@ -847,7 +850,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 				showCharacter.alpha = 0;
 			}
 			descText.alpha = 0;
-			close();
+			MusicBeatState.resetState();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 		}
 

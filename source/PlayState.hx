@@ -50,14 +50,22 @@ import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
 
-#if sys
+#if MODS_ALLOWED
 import sys.FileSystem;
+#end
+
+#if android
+import ui.Mobilecontrols;
 #end
 
 using StringTools;
 
 class PlayState extends MusicBeatState
 {
+	#if android
+	var androidc:Mobilecontrols;
+	#end
+
 	public static var STRUM_X = 42;
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
@@ -698,6 +706,10 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		if(doPush) 
+			luaArray.push(new FunkinLua(luaFile));
+		#end		
+
 		if(curStage == 'philly') {
 			phillyCityLightsEvent = new FlxTypedGroup<BGSprite>();
 			for (i in 0...5)
@@ -709,9 +721,6 @@ class PlayState extends MusicBeatState
 				phillyCityLightsEvent.add(light);
 			}
 		}
-		
-		if(doPush) 
-			luaArray.push(new FunkinLua(luaFile));
 
 		if(!modchartSprites.exists('blammedLightsBlack')) { //Creates blammed light black fade in case you didn't make your own
 			blammedLightsBlack = new ModchartSprite(FlxG.width * -1, FlxG.height * -1);
@@ -727,10 +736,10 @@ class PlayState extends MusicBeatState
 			blammedLightsBlack.wasAdded = true;
 			modchartSprites.set('blammedLightsBlack', blammedLightsBlack);
 		}
-		if(curStage == 'philly') insert(members.indexOf(blammedLightsBlack) + 1, phillyCityLightsEvent);
+		if(curStage == 'philly') 
+			insert(members.indexOf(blammedLightsBlack) + 1, phillyCityLightsEvent);
 		blammedLightsBlack = modchartSprites.get('blammedLightsBlack');
 		blammedLightsBlack.alpha = 0.0;
-		#end
 
 		var gfVersion:String = SONG.player3;
 		if(gfVersion == null || gfVersion.length < 1) {
@@ -864,7 +873,7 @@ class PlayState extends MusicBeatState
 		// startCountdown();
 
 		generateSong(SONG.song);
-		#if LUA_ALLOWED
+		#if (MODS_ALLOWED && LUA_ALLOWED)
 		for (notetype in noteTypeMap.keys()) {
 			var luaToLoad:String = Paths.modFolders('custom_notetypes/' + notetype + '.lua');
 			if(FileSystem.exists(luaToLoad)) {
@@ -971,6 +980,30 @@ class PlayState extends MusicBeatState
 		timeBarBG.cameras = [camHUD];
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
+
+		#if android
+			androidc = new Mobilecontrols();
+
+			switch (androidc.mode)
+			{
+				case VIRTUALPAD_RIGHT | VIRTUALPAD_LEFT | VIRTUALPAD_CUSTOM:
+					controls.setVirtualPadNOTES(androidc._virtualPad, FULL, NONE);
+				case HITBOX:
+					controls.setHitBoxNOTES(androidc._hitbox);
+				default:
+			}
+			trackedinputsNOTES = controls.trackedinputsNOTES;
+			controls.trackedinputsNOTES = [];
+
+            var camcontrol = new FlxCamera();
+		    FlxG.cameras.add(camcontrol);
+		    camcontrol.bgColor.alpha = 0;
+			androidc.cameras = [camcontrol];
+
+			androidc.visible = false;
+
+			add(androidc);
+		#end
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -1236,12 +1269,29 @@ class PlayState extends MusicBeatState
 		} else {
 			FlxG.log.warn('Couldnt find video file: ' + fileName);
 		}
-		#end
+		#else//the android thing
+		inCutscene = true;
+		var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+		bg.scrollFactor.set();
+		bg.cameras = [camHUD];
+		add(bg);
+
+		var video = new WebViewPlayer(name);                                                     
+    	video.finishCallback = function() {                                                               
+			if(endingSong) {
+				endSong();
+				if (SONG.song.toLowerCase() == 'aurora' || SONG.song.toLowerCase() == 'evacuate')
+					LoadingState.loadAndSwitchState(new StoryMenuState());
+			} else {
+				startCountdown();
+			}  
+        }
 		if(endingSong) {
 			endSong();
 		} else {
 			startCountdown();
 		}
+		#end
 	}
 
 	var dialogueCount:Int = 0;
@@ -1377,6 +1427,9 @@ class PlayState extends MusicBeatState
 		inCutscene = false;
 		var ret:Dynamic = callOnLuas('onStartCountdown', []);
 		if(ret != FunkinLua.Function_Stop) {
+			#if android
+		    androidc.visible = true;
+		    #end
 			generateStaticArrows(0);
 			generateStaticArrows(1);
 			for (i in 0...playerStrums.length) {
@@ -1605,7 +1658,7 @@ class PlayState extends MusicBeatState
 
 		var songName:String = Paths.formatToSongPath(SONG.song);
 		var file:String = Paths.json(songName + '/events');
-		#if sys
+		#if MODS_ALLOWED
 		if (FileSystem.exists(Paths.modsJson(songName + '/events')) || FileSystem.exists(file)) {
 		#else
 		if (OpenFlAssets.exists(file)) {
@@ -2081,7 +2134,7 @@ class PlayState extends MusicBeatState
 		}
 		botplayTxt.visible = cpuControlled;
 
-		if (FlxG.keys.justPressed.ENTER && startedCountdown && canPause)
+		if (FlxG.keys.justPressed.ENTER#if android || FlxG.android.justReleased.BACK #end && startedCountdown && canPause)
 		{
 			var ret:Dynamic = callOnLuas('onPause', []);
 			if(ret != FunkinLua.Function_Stop) {
@@ -3029,6 +3082,9 @@ class PlayState extends MusicBeatState
 		timeBarBG.visible = false;
 		timeBar.visible = false;
 		timeTxt.visible = false;
+		#if android
+	    androidc.visible = false;
+		#end
 		canPause = false;
 		endingSong = true;
 		camZooming = false;
