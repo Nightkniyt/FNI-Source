@@ -378,9 +378,6 @@ class FreeplayState extends MusicBeatState
 			curSelected = songs.length - 1;
 		if (curSelected >= songs.length)
 			curSelected = 0;
-
-		var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[curSelected]);
-		WeekData.setDirectoryFromWeek(leWeek);
 		
 		//whoever reads this, please enjoy my 200000000000000 IQ play here -- ik it sucks lol
 
