@@ -66,7 +66,7 @@ class Config {
 	}
 }
 
-class Mobilecontrols extends FlxSpriteGroup
+class AndroidControlsSetup extends FlxSpriteGroup
 {
 	public var mode:ControlsGroup = HITBOX;
 
