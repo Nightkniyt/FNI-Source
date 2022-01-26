@@ -46,6 +46,15 @@ class MusicBeatState extends FlxUIState
 		controls.trackedinputsUI = [];
 		#end
 	}
+
+        public function addPadCamera() {
+		#if android
+		var camcontrol = new flixel.FlxCamera();
+		FlxG.cameras.add(camcontrol);
+		camcontrol.bgColor.alpha = 0;
+		_virtualpad.cameras = [camcontrol];
+		#end
+	}
 	
 	override function destroy() {
 		#if android
