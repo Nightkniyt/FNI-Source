@@ -334,6 +334,10 @@ class StoryMenuState extends MusicBeatState
 		//rightArrow.visible = true;
 		//sprDifficulty.visible = true;
 		//backspace.visible = true;
+
+                var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[curSelected]);
+		WeekData.setDirectoryFromWeek(leWeek);
+
 		var assetName:String = leWeek.weekBackground;
 		var titleName:String = leWeek.weekName;
 		var poop:String = '';
