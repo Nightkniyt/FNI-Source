@@ -4021,14 +4021,6 @@ class PlayState extends MusicBeatState
 					case 32, 64, 96, 128, 160, 192, 225, 256, 288, 320, 352, 384, 416:
 						defaultCamZoom = 0.6;
 				}
-			//case 'theclam':
-			//	switch (curBeat)
-			//	{
-					//case 33, 34:
-						//camFollow.x += 60;
-					//case 35:
-						//camFollow.x -= 60;
-			//	}
 			case 'mall':
 				if(!ClientPrefs.lowQuality) {
 					upperBoppers.dance(true);
