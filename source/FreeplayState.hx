@@ -398,9 +398,6 @@ class FreeplayState extends MusicBeatState
 			case 'eduard':
 				pee = 'susstage';
 				poop = 'eduard';
-			case 'eduard-fg':
-				pee = 'void';
-				poop = 'eduard';
 			case 'trollmogus':
 				pee = 'susstage';
 				poop = 'trollmogus';
