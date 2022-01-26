@@ -93,21 +93,20 @@ class CastomAndroidControls extends MusicBeatState
 		_hb.visible = false;
 
 		// buttons
-		var savebutton:FlxButton = new FlxButton(FlxG.width - 150, 25, "Save And Exit", function()
-		{
+
+	    var exitbutton = new FlxUIButton(FlxG.width - 650,25,"exit", () -> {
+			MusicBeatState.switchState(new OptionsState());	    	
+	    });
+		exitbutton.resize(125,50);
+		exitbutton.setLabelFormat("VCR OSD Mono",24,FlxColor.BLACK,"center");
+		add(exitbutton);		
+
+		var savebutton = new FlxUIButton((exitbutton.x + exitbutton.width + 25),25,"exit and save",() -> {
 			save();
 			MusicBeatState.switchState(new OptionsState());
 		});
-		savebutton.resize(100,50);
-
-		var exitbutton:FlxButton = new FlxButton(saveButton.x, 75, "Exit", function()
-		{
-			MusicBeatState.switchState(new OptionsState());
-		});
-		exitbutton.resize(100,50);
-
-		// add buttons
-		add(exitbutton);
+		savebutton.resize(250,50);
+		savebutton.setLabelFormat("VCR OSD Mono",24,FlxColor.BLACK,"center");
 		add(savebutton);
 
 		// add virtualpad
@@ -227,29 +226,25 @@ class CastomAndroidControls extends MusicBeatState
 
 		}else {
 			if (_pad.buttonUp.justPressed) {
-				if (curSelected != 3)
-					changeSelection(0,3);
+				controlitems[curSelected] == "custom";
 
 				movebutton(touch, _pad.buttonUp);
 			}
 			
 			if (_pad.buttonDown.justPressed) {
-				if (curSelected != 3)
-					changeSelection(0,3);
+				controlitems[curSelected] == "custom";
 
 				movebutton(touch, _pad.buttonDown);
 			}
 
 			if (_pad.buttonRight.justPressed) {
-				if (curSelected != 3)
-					changeSelection(0,3);
+				controlitems[curSelected] == "custom";
 
 				movebutton(touch, _pad.buttonRight);
 			}
 
 			if (_pad.buttonLeft.justPressed) {
-				if (curSelected != 3)
-					changeSelection(0,3);
+				controlitems[curSelected] == "custom";
 
 				movebutton(touch, _pad.buttonLeft);
 			}
