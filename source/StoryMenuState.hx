@@ -322,6 +322,9 @@ class StoryMenuState extends MusicBeatState
 		if (curWeek < 0)
 			curWeek = WeekData.weeksList.length - 1;
 
+		var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[curWeek]);
+		WeekData.setDirectoryFromWeek(leWeek);
+
 		var leName:String = leWeek.storyName;
 		txtWeekTitle.text = leName.toUpperCase();
 		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 10);
@@ -334,9 +337,6 @@ class StoryMenuState extends MusicBeatState
 		//rightArrow.visible = true;
 		//sprDifficulty.visible = true;
 		//backspace.visible = true;
-
-                var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[curSelected]);
-		WeekData.setDirectoryFromWeek(leWeek);
 
 		var assetName:String = leWeek.weekBackground;
 		var titleName:String = leWeek.weekName;
