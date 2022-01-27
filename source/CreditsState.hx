@@ -63,7 +63,7 @@ class CreditsState extends MusicBeatState
 		#end
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
 		['Android Port'],
-		['Saw (M.A. Jigsaw)','trollface','The Friday Night Incident\nAndroid Port Main Coder','https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ','0xFFFF0000'],
+		['Saw (M.A. Jigsaw)','trollface','Main Coder','https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ','0xFFFF0000'],
 		['Friday Night Incident Team'],
 		['Arthur / ADJ',  'trollface',		 'Mr. Trololo/Aurora Sprites\nDirector',						   'https://twitter.com/AdjDraws',							'0xFFFFFF00'],
 		['KGBepis',		  'trollface',		 'Background Artist',							   'https://twitter.com/kgbepis',									    '0xFF5B15FF'],
