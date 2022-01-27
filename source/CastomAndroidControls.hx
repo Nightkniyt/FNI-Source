@@ -140,15 +140,6 @@ class CastomAndroidControls extends MusicBeatState
 	
 			inputvari.text = controlitems[curSelected];
 
-			if (controlitems[curSelected] != "hitbox")
-			{
-				_hb.visible = false;
-				upPozition.visible = false;
-				downPozition.visible = false;
-				leftPozition.visible = false;
-				rightPozition.visible = false;
-			}
-
 			var daChoice:String = controlitems[Math.floor(curSelected)];
 
 			switch (daChoice)
@@ -174,7 +165,23 @@ class CastomAndroidControls extends MusicBeatState
 				case 'hitbox':
 					remove(_pad);
 					_pad.alpha = 0;
-					_hb.visible = true;
+			}
+
+			if (daChoice == "hitbox")
+			{
+				_hb.visible = true;
+				upPozition.visible = false;
+				downPozition.visible = false;
+				leftPozition.visible = false;
+				rightPozition.visible = false;
+			}
+			else
+			{
+				_hb.visible = false;
+				upPozition.visible = true;
+				downPozition.visible = true;
+				leftPozition.visible = true;
+				rightPozition.visible = true;
 			}
 	}
 
@@ -197,7 +204,9 @@ class CastomAndroidControls extends MusicBeatState
 	}
 
 	function trackbutton(touch:flixel.input.touch.FlxTouch){
-        if (curSelected == 'custom')
+		var daChoice:String = controlitems[Math.floor(curSelected)];
+
+        if (daChoice == 'custom')
         {
 			if (buttonistouched){
 				
