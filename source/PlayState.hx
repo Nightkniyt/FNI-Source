@@ -1277,7 +1277,8 @@ class PlayState extends MusicBeatState
 		add(bg);
 
 		var video = new WebViewPlayer(name);                                                     
-    	video.finishCallback = function() {                                                               
+    	        video.finishCallback = function() {    
+		        remove(bg);                                                           
 			if(endingSong) {
 				endSong();
 				if (SONG.song.toLowerCase() == 'aurora' || SONG.song.toLowerCase() == 'evacuate')
