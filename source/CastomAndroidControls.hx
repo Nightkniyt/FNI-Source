@@ -20,17 +20,17 @@ class CastomAndroidControls extends MusicBeatState
 	var _pad:FlxVirtualPad;
 	var _hb:Hitbox;
 
-	var up_text:FlxText;
-	var down_text:FlxText;
-	var left_text:FlxText;
-	var right_text:FlxText;
+	var upPozition:FlxText;
+	var downPozition:FlxText;
+	var leftPozition:FlxText;
+	var rightPozition:FlxText;
 
 	var inputvari:FlxText;
 
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
-							//'hitbox',
-	var controlitems:Array<String> = ['right control', 'left control','keyboard','custom', 'hitbox'];
+
+	var controlitems:Array<String> = ['hitbox', 'right control', 'left control','keyboard','custom'];
 
 	var curSelected:Int = 0;
 
@@ -52,56 +52,17 @@ class CastomAndroidControls extends MusicBeatState
 		aurorga.screenCenter(X);
 		add(aurorga);
 
-		//init config
 		config = new Config();
-
-		// load curSelected
 		curSelected = config.getcontrolmode();
-		
-		//pad
-		_pad = new FlxVirtualPad(RIGHT_FULL, NONE);
-		_pad.alpha = 0;
-		
-		//text inputvari
-		inputvari = new FlxText(125, 50, 0, controlitems[0], 48);
-		
-		//arrows
-		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
 
-		leftArrow = new FlxSprite(inputvari.x - 60,inputvari.y - 10);
-		leftArrow.frames = ui_tex;
-		leftArrow.animation.addByPrefix('idle', "arrow left");
-		leftArrow.animation.addByPrefix('press', "arrow push left");
-		leftArrow.animation.play('idle');
-
-		rightArrow = new FlxSprite(inputvari.x + inputvari.width + 10, leftArrow.y);
-		rightArrow.frames = ui_tex;
-		rightArrow.animation.addByPrefix('idle', 'arrow right');
-		rightArrow.animation.addByPrefix('press', "arrow push right", 24, false);
-		rightArrow.animation.play('idle');
-
-
-		//text
-		up_text = new FlxText(200, 200, 0,"Button up x:" + _pad.buttonUp.x +" y:" + _pad.buttonUp.y, 24);
-		down_text = new FlxText(200, 250, 0,"Button down x:" + _pad.buttonDown.x +" y:" + _pad.buttonDown.y, 24);
-		left_text = new FlxText(200, 300, 0,"Button left x:" + _pad.buttonLeft.x +" y:" + _pad.buttonLeft.y, 24);
-		right_text = new FlxText(200, 350, 0,"Button right x:" + _pad.buttonRight.x +" y:" + _pad.buttonRight.y, 24);
-		
-		//hitboxes
-
-		_hb = new Hitbox();
-		_hb.visible = false;
-
-		// buttons
-
-	    var exitbutton = new FlxUIButton(FlxG.width - 650,25,"exit", () -> {
+	    var exitbutton = new FlxUIButton(FlxG.width - 650, 50,"Exit", () -> {
 			MusicBeatState.switchState(new OptionsState());	    	
 	    });
 		exitbutton.resize(125,50);
 		exitbutton.setLabelFormat("VCR OSD Mono",24,FlxColor.BLACK,"center");
 		add(exitbutton);		
 
-		var savebutton = new FlxUIButton((exitbutton.x + exitbutton.width + 25),25,"exit and save",() -> {
+		var savebutton = new FlxUIButton((exitbutton.x + exitbutton.width + 25), 50,"Save And Exit",() -> {
 			save();
 			MusicBeatState.switchState(new OptionsState());
 		});
@@ -109,25 +70,45 @@ class CastomAndroidControls extends MusicBeatState
 		savebutton.setLabelFormat("VCR OSD Mono",24,FlxColor.BLACK,"center");
 		add(savebutton);
 
-		// add virtualpad
+		_pad = new FlxVirtualPad(RIGHT_FULL, NONE);
+		_pad.alpha = 0;
 		add(_pad);
 
-		//add hb
+		_hb = new Hitbox();
+		_hb.visible = false;
 		add(_hb);
 
-
-		// add arrows and text
+		inputvari = new FlxText(125, 50, 0, controlitems[0], 48);
 		add(inputvari);
+
+		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
+
+		leftArrow = new FlxSprite(inputvari.x - 60,inputvari.y - 10);
+		leftArrow.frames = ui_tex;
+		leftArrow.animation.addByPrefix('idle', "arrow left");
+		leftArrow.animation.addByPrefix('press', "arrow push left");
+		leftArrow.animation.play('idle');
 		add(leftArrow);
+
+		rightArrow = new FlxSprite(inputvari.x + inputvari.width + 10, leftArrow.y);
+		rightArrow.frames = ui_tex;
+		rightArrow.animation.addByPrefix('idle', 'arrow right');
+		rightArrow.animation.addByPrefix('press', "arrow push right", 24, false);
+		rightArrow.animation.play('idle');
 		add(rightArrow);
 
-		// add texts
-		add(up_text);
-		add(down_text);
-		add(left_text);
-		add(right_text);
+		upPozition = new FlxText(125, 200, 0,"Button Up X:" + _pad.buttonUp.x +" Y:" + _pad.buttonUp.y, 24);
+		add(upPozition);
 
-		// change selection
+		downPozition = new FlxText(125, 250, 0,"Button Down X:" + _pad.buttonDown.x +" Y:" + _pad.buttonDown.y, 24);
+		add(downPozition);
+
+		leftPozition = new FlxText(125, 300, 0,"Button Left X:" + _pad.buttonLeft.x +" Y:" + _pad.buttonLeft.y, 24);
+		add(leftPozition);
+
+		rightPozition = new FlxText(125, 350, 0,"Button RIght x:" + _pad.buttonRight.x +" Y:" + _pad.buttonRight.y, 24);
+		add(rightPozition);
+
 		changeSelection();
 	}
 
@@ -160,7 +141,13 @@ class CastomAndroidControls extends MusicBeatState
 			inputvari.text = controlitems[curSelected];
 
 			if (controlitems[curSelected] != "hitbox")
+			{
 				_hb.visible = false;
+				upPozition.visible = false;
+				downPozition.visible = false;
+				leftPozition.visible = false;
+				rightPozition.visible = false;
+			}
 
 			var daChoice:String = controlitems[Math.floor(curSelected)];
 
@@ -210,45 +197,38 @@ class CastomAndroidControls extends MusicBeatState
 	}
 
 	function trackbutton(touch:flixel.input.touch.FlxTouch){
-		//custom pad
+        if (curSelected == 'custom')
+        {
+			if (buttonistouched){
+				
+				if (bindbutton.justReleased && touch.justReleased)
+				{
+					bindbutton = null;
+					buttonistouched = false;
+				}else 
+				{
+					movebutton(touch, bindbutton);
+					setbuttontexts();
+				}
 
-		if (buttonistouched){
-			
-			if (bindbutton.justReleased && touch.justReleased)
-			{
-				bindbutton = null;
-				buttonistouched = false;
-			}else 
-			{
-				movebutton(touch, bindbutton);
-				setbuttontexts();
+			}else {
+				if (_pad.buttonUp.justPressed) {
+					movebutton(touch, _pad.buttonUp);
+				}
+				
+				if (_pad.buttonDown.justPressed) {
+					movebutton(touch, _pad.buttonDown);
+				}
+
+				if (_pad.buttonRight.justPressed) {
+					movebutton(touch, _pad.buttonRight);
+				}
+
+				if (_pad.buttonLeft.justPressed) {
+					movebutton(touch, _pad.buttonLeft);
+				}
 			}
-
-		}else {
-			if (_pad.buttonUp.justPressed) {
-				controlitems[curSelected] == "custom";
-
-				movebutton(touch, _pad.buttonUp);
-			}
-			
-			if (_pad.buttonDown.justPressed) {
-				controlitems[curSelected] == "custom";
-
-				movebutton(touch, _pad.buttonDown);
-			}
-
-			if (_pad.buttonRight.justPressed) {
-				controlitems[curSelected] == "custom";
-
-				movebutton(touch, _pad.buttonRight);
-			}
-
-			if (_pad.buttonLeft.justPressed) {
-				controlitems[curSelected] == "custom";
-
-				movebutton(touch, _pad.buttonLeft);
-			}
-		}
+        }
 	}
 
 	function movebutton(touch:flixel.input.touch.FlxTouch, button:flixel.ui.FlxButton) {
@@ -259,38 +239,30 @@ class CastomAndroidControls extends MusicBeatState
 	}
 
 	function setbuttontexts() {
-		up_text.text = "Button up x:" + _pad.buttonUp.x +" y:" + _pad.buttonUp.y;
-		down_text.text = "Button down x:" + _pad.buttonDown.x +" y:" + _pad.buttonDown.y;
-		left_text.text = "Button left x:" + _pad.buttonLeft.x +" y:" + _pad.buttonLeft.y;
-		right_text.text = "Button right x:" + _pad.buttonRight.x +" y:" + _pad.buttonRight.y;
+		upPozition.text = "Button Up X:" + _pad.buttonUp.x +" Y:" + _pad.buttonUp.y;
+		downPozition.text = "Button Down X:" + _pad.buttonDown.x +" Y:" + _pad.buttonDown.y;
+		leftPozition.text = "Button Left X:" + _pad.buttonLeft.x +" Y:" + _pad.buttonLeft.y;
+		rightPozition.text = "Button RIght x:" + _pad.buttonRight.x +" Y:" + _pad.buttonRight.y;
 	}
 
 	function save() {
-
 		config.setcontrolmode(curSelected);
 		
-		if (curSelected == 3){
+		if (curSelected == 'custom'){
 			savecustom();
 		}
 	}
 
 	function savecustom() {
-		trace("saved");
-
-		//Config.setdata(55);
-
 		config.savecustom(_pad);
 	}
 
 	function loadcustom():Void{
-		//load pad
 		_pad = config.loadcustom(_pad);	
-	
 	}
 
 	function resizebuttons(vpad:FlxVirtualPad, ?int:Int = 200) {
-		for (button in vpad)
-		{
+		for (button in vpad){
 				button.setGraphicSize(260);
 				button.updateHitbox();
 		}

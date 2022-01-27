@@ -1228,7 +1228,7 @@ class PlayState extends MusicBeatState
 	}
 
 	public function startVideo(name:String):Void {
-		#if VIDEOS_ALLOWED
+		#if (VIDEOS_ALLOWED && !android)
 		var foundFile:Bool = false;
 		var fileName:String = #if MODS_ALLOWED Paths.modFolders('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
 		#if sys
@@ -1269,7 +1269,7 @@ class PlayState extends MusicBeatState
 		} else {
 			FlxG.log.warn('Couldnt find video file: ' + fileName);
 		}
-		#else//the android thing
+		#elseif android
 		inCutscene = true;
 		var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
 		bg.scrollFactor.set();
@@ -1286,11 +1286,6 @@ class PlayState extends MusicBeatState
 				startCountdown();
 			}  
         }
-		if(endingSong) {
-			endSong();
-		} else {
-			startCountdown();
-		}
 		#end
 	}
 
