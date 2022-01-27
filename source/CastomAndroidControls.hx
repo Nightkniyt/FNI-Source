@@ -257,7 +257,9 @@ class CastomAndroidControls extends MusicBeatState
 	function save() {
 		config.setcontrolmode(curSelected);
 		
-		if (curSelected == 'custom'){
+	        var daChoice:String = controlitems[Math.floor(curSelected)];
+
+                if (daChoice == 'custom') {
 			savecustom();
 		}
 	}
