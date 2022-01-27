@@ -206,10 +206,10 @@ class CastomAndroidControls extends MusicBeatState
 	function trackbutton(touch:flixel.input.touch.FlxTouch){
 		var daChoice:String = controlitems[Math.floor(curSelected)];
 
-        if (daChoice == 'custom')
-        {
-			if (buttonistouched){
-				
+                if (daChoice == 'custom')
+                {
+			if (buttonistouched)
+                        {				
 				if (bindbutton.justReleased && touch.justReleased)
 				{
 					bindbutton = null;
@@ -220,7 +220,9 @@ class CastomAndroidControls extends MusicBeatState
 					setbuttontexts();
 				}
 
-			}else {
+			}
+                        else 
+                        {
 				if (_pad.buttonUp.justPressed) {
 					movebutton(touch, _pad.buttonUp);
 				}
@@ -237,7 +239,7 @@ class CastomAndroidControls extends MusicBeatState
 					movebutton(touch, _pad.buttonLeft);
 				}
 			}
-        }
+                }
 	}
 
 	function movebutton(touch:flixel.input.touch.FlxTouch, button:flixel.ui.FlxButton) {
@@ -259,7 +261,7 @@ class CastomAndroidControls extends MusicBeatState
 		
 		var daChoice:String = controlitems[Math.floor(curSelected)];
 
-                if (daChoice == 'custom')
+                if (daChoice == 'custom') {
 			savecustom();
 		}
 	}
@@ -268,7 +270,7 @@ class CastomAndroidControls extends MusicBeatState
 		config.savecustom(_pad);
 	}
 
-	function loadcustom():Void{
+	function loadcustom():Void {
 		_pad = config.loadcustom(_pad);	
 	}
 
@@ -279,8 +281,7 @@ class CastomAndroidControls extends MusicBeatState
 		}
 	}
 
-	override function destroy()
-	{
+	override function destroy() {
 		super.destroy();
 	}
 }
